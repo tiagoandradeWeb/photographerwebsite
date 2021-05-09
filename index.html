@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Inicial Com Bootstrap  4</title>
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+<header class="container-fluid header">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="Logo Photography"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portifolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+  </div>
+</header>
+<!--Main-->
+<div class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="image">
+                    <img class="img-fluid" src="assets/photography illustration.png" alt="photography illustration">
+                </div>
+            </div>
+            <div class="col-md-6 flex-center">
+                <div class="text">
+                    <h1>A Good Photograph</h1>
+                    <h2>Is Knowing Where to Stand.</h2>
+                    <div class="search">
+                        <input class="form-search" type="text" placeholder="Search Our Website">
+                        <div class="btn-search"><i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <button class="btn">Or See Our Portfolio</button>
+                    <div class="social-icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 text-center">
+          <i class="fas fa-angle-double-down btn-down"></i>
+        </div>
+    </div>
+</div>
+<!--About-->
+<section class="about">
+  <div class="image-one"><img src="assets/lens.png" alt="Lente fotografo"></div>
+  <div class="image-two"><img src="assets/control.png" alt=""></div>
+  <div class="container">
+    <div class="row">
+      <div class="title">
+        <h1>About</h1>
+        <h2>MEET OUR PROFESSIONALS</h2>
+      </div>
+    </div>
+    <div class="row flex-center">
+      <div class="about-description flex-center">
+        <div class="col-md-7 text-center">
+          <p>The photograph is not taken by the photographer. The photo comes out better or worse according to the relationship between the photographer and the person who photographs.</p>
+        </div>
+      </div>
+      <div class="col-md-9 flex-row-center cards-box">
+          <div class="cards">
+            <img src="assets/PROF1.png" alt="">
+            <div class="text">
+              <h3>Jhon Rener</h3>
+              <h4>Photography</h4>
+            </div>
+            <div class="social-icons">
+              <a href=""><i class="fab fa-whatsapp"></i></a>
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="cards">
+            <img src="assets/PROF2.png" alt="">
+            <div class="text">
+              <h3>Carem sthefany</h3>
+              <h4>Photography & Designer</h4>
+            </div>
+            <div class="social-icons">
+              <a href=""><i class="fab fa-whatsapp"></i></a>
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Services-->
+<section class="services">
+  <div class="container">
+    <div class="row">
+      <div class="title">
+        <h1>Services</h1>
+        <h2>know our services </h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Events
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                Event photography is a modality that involves and encompasses several others: portraits, landscape, macro photography, etc.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Family
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Event photography is a modality that involves and encompasses several others: portraits, landscape, macro photography, etc.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Advertising 
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Event photography is a modality that involves and encompasses several others: portraits, landscape, macro photography, etc.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <img src="assets/polaroid.png" alt="Polaroid">
+      </div>
+    </div>
+  </div>
+</section>
+<!--Portifolio-->
+<section class="portifolio">
+  <div class="container">
+    <div class="row">
+      <div class="title">
+        <h1>Portifolio</h1>
+        <h2>know our services</h2>
+      </div>
+    </div>
+  </div>
+    <div class="photos-grid">
+      <img class="ft1" src="assets/ft1.png" alt="">
+      <img class="ft2" src="assets/ft2.png" alt="">
+      <img class="ft3" src="assets/ft3.png" alt="">
+      <img class="ft4" src="assets/ft4.png" alt="">
+      <img class="ft5" src="assets/ft5.png" alt="">
+      <img class="ft7" src="assets/ft7.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row flex-center">
+        <button class="btn btn-portifolio">See Complete Portfolio </button>
+      </div>
+    </div>
+</section>
+<!--Make  appointment-->
+<div class="container-fluid appointment">
+  <div class="col-md-7">
+    <h2>Make an appointment without obligation now </h2>
+    <button class="btn btn-appointment">Clique Here</button>
+  </div>
+</div>
+<!--Blog-->
+<div class="container blog">
+  <div class="row">
+    <div class="title">
+      <h1>Blog</h1>
+      <h2>Follow our tips </h2>
+    </div>
+  </div>
+  <div class="row blog-items">
+    <div class="container">
+    <div class="swiper-container mySwiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+            <div class="item">
+              <div class="icon"><img src="assets/icon.png" alt="icon cam"></div>
+              <div class="text">
+                <h2>How to Choose Camera Lenses </h2>
+                <p>See Here In This Complete Guide How To Choose Lenses For Your Camera Without ...</p>
+                <p>31 April 2020   <a href="#">Read More...</a></p>
+              </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="item">
+            <div class="icon"><img src="assets/icon.png" alt="icon cam"></div>
+            <div class="text">
+              <h2>How to Choose Camera Lenses </h2>
+              <p>See Here In This Complete Guide How To Choose Lenses For Your Camera Without ...</p>
+              <p>31 April 2020   <a href="#">Read More...</a></p>
+            </div>
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="item">
+          <div class="icon"><img src="assets/icon.png" alt="icon cam"></div>
+          <div class="text">
+            <h2>How to Choose Camera Lenses </h2>
+            <p>See Here In This Complete Guide How To Choose Lenses For Your Camera Without ...</p>
+            <p>31 April 2020   <a href="#">Read More...</a></p>
+          </div>
+        </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="item">
+        <div class="icon"><img src="assets/icon.png" alt="icon cam"></div>
+        <div class="text">
+          <h2>How to Choose Camera Lenses </h2>
+          <p>See Here In This Complete Guide How To Choose Lenses For Your Camera Without ...</p>
+          <p>31 April 2020   <a href="#">Read More...</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="item">
+        <div class="icon"><img src="assets/icon.png" alt="icon cam"></div>
+        <div class="text">
+          <h2>How to Choose Camera Lenses </h2>
+          <p>See Here In This Complete Guide How To Choose Lenses For Your Camera Without ...</p>
+          <p>31 April 2020   <a href="#">Read More...</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="item">
+        <div class="icon"><img src="assets/icon.png" alt="icon cam"></div>
+        <div class="text">
+          <h2>How to Choose Camera Lenses </h2>
+          <p>See Here In This Complete Guide How To Choose Lenses For Your Camera Without ...</p>
+          <p>31 April 2020   <a href="#">Read More...</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="item">
+        <div class="icon"><img src="assets/icon.png" alt="icon cam"></div>
+        <div class="text">
+          <h2>How to Choose Camera Lenses </h2>
+          <p>See Here In This Complete Guide How To Choose Lenses For Your Camera Without ...</p>
+          <p>31 April 2020   <a href="#">Read More...</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="item">
+        <div class="icon"><img src="assets/icon.png" alt="icon cam"></div>
+        <div class="text">
+          <h2>How to Choose Camera Lenses </h2>
+          <p>See Here In This Complete Guide How To Choose Lenses For Your Camera Without ...</p>
+          <p>31 April 2020   <a href="#">Read More...</a></p>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+<!--Contact-->
+<section class="contact">
+  <div class="contact-banner">
+  </div>
+  <div class="container">
+    <div class="row container-info">
+      <div class="andress">
+        <div class="andress-item">
+          <p>Madame Toussauds</p>
+          <p>234 West 42nd Street</p>
+          <p>New York NY 10036</p>
+        </div>
+        <div class="social-icons">
+          <h3>Follow our social networks </h3>
+          <div class="box-icons">
+            <div class="box-icon"><a href=""><i class="fab fa-whatsapp"></i></a></div>
+            <div class="box-icon"><a href=""><i class="fab fa-facebook"></i></a></div>
+            <div class="box-icon"><a href=""><i class="fab fa-instagram"></i></a></div>
+            <div class="box-icon"><a href=""><i class="fab fa-youtube"></i></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="numbers">
+        <p>Phones :  +14255550100   /    +14255550100  /   +14255550100</p>
+      </div>
+    </div>
+    <div class="form-box">
+        <h2>Contact Us</h2>
+        <p>Send us a message and we will contact you quickly</p>
+        <form action="" class="form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="number">PHONE / WHATSAPP</label>
+            <input type="text" class="form-control" id="number">
+          </div>
+          <div class="form-group">
+            <label for="message">MESSAGE</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <div class="btns">
+            <button class="btn btn-form" type="reset">CLEAR FORM </button>
+            <button class="btn btn-form" type="submit">SUBMIT</button>
+          </div>
+        </form>
+    </div>
+  </div>
+</section>
+<!--Footer-->
+<footer class="footer">
+  <div class="container">
+    <div class="row d-flex flex-column">
+      <div class="footer-higher">
+        <img src="assets/logofooter.png" alt="">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portifolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>Developed by Tiago Andrade - 2021 All rights reserved </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/swiper.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

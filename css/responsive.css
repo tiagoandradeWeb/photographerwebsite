@@ -1,0 +1,43 @@
+@media all and (max-width: 550px){
+.title{padding: 0 15px; margin: 100px 0px 50px 0px;}
+.main .text h1{font-size: 1.5em; text-align: center;}
+.main .text h2{font-size: 1.5em; text-align: center;}
+.main .btn-down{display: none;}
+.header .container{padding: 0px 0px 0px 7px;}
+.navbar{padding: 0;}
+.navbar-toggler{padding: 0;}
+
+.about .about-description p{font-size: .9em;}
+.image-one, .image-two{display: none;}
+.about .cards-box{display: flex; flex-direction: column; margin-top: 50px;}
+.about .cards-box .cards{margin-left: 0px; margin-bottom: 30px;}
+.about .cards-box .cards:nth-child(2){margin-bottom: 0;}
+.services .col-md-5{margin-left: 0px; text-align: center; margin-top: 50px;}
+.services .col-md-5 img{margin-left: 0;}
+
+.portifolio .photos-grid{grid-template-columns: repeat(1, 1fr);}
+.portifolio .photos-grid .ft1{ grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 2;}
+.portifolio .photos-grid .ft2{ grid-column-start: 1; grid-column-end: 2; grid-row-start: 2; grid-row-end: 3;}
+.portifolio .photos-grid .ft3{ grid-column-start: 1; grid-column-end: 2; grid-row-start: 3; grid-row-end: 4;}
+.portifolio .photos-grid .ft4{ grid-column-start: 1; grid-column-end: 2; grid-row-start: 4; grid-row-end: 5;}
+.portifolio .photos-grid .ft7{ grid-column-start: 1; grid-column-end: 2; grid-row-start: 5; grid-row-end: 6;}
+.portifolio .btn-portifolio{margin-top: 50px;}
+
+.appointment{background-size: cover; height: 350px; margin-top: 50px;}
+.appointment h2{font-size: 2em; font-family: raleway-black;}
+
+.blog-items .swiper-pagination{text-align: center;}
+
+.contact{margin-top: 100px; }
+.contact-banner{height: 250px; background-size: cover;}
+.contact .container-info{padding: 0 15px;}
+.contact .andress{flex-direction: column;}
+.contact .social-icons{margin-left: 0px;}
+.contact .social-icons h3{margin-top: 20px;}
+.contact .numbers p{text-align: center;}
+.form-box{width: 100%;position: relative; top: 0; right: 0px;}
+
+.footer{margin-top: 50px;}
+.footer .footer-higher{display: none;}
+.footer .footer-bottom{text-align: center; font-size: .8em;}
+}
